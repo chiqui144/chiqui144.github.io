@@ -1,0 +1,392 @@
+/*
+    Author: @a_devs_life
+    Youtube: https://www.youtube.com/@a_devs_life
+    Instagram: https://www.instagram.com/a_devs_life/
+    Github: https://github.com/codeboysk/a-devs-life
+*/
+
+h1{
+    font-size: 40px;
+}
+.navbar {
+    background-color: #EFEFEF;
+    height: 100px;
+    padding: 0.5rem;
+      transition: 0.9s ease;
+}
+.navbar:hover {
+    background-color:  #dddddd;
+    transition: 0.9s ease;
+    
+}
+.offcanvas-title{
+    font-family: Neuton;
+        src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 30px;
+
+}
+
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+
+    
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    justify-items: right;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #000;
+}
+
+@media (min-width: 1000px) {
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #000000;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+        
+    }
+    .logo {
+        width:100%;
+        height: 100px;
+        margin-left: -30%;
+
+    }
+    .navbar-brand{
+        width: 100%;
+    }
+    .navbar-brand1{
+    visibility: hidden;
+    width: 30%;
+    height: 60px;
+    margin: 2%;
+
+    }
+    .navbar-brand1 img{
+    visibility: hidden;
+    width: 30%;
+    height: 60px;
+    margin: 2%;
+
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+    
+}
+
+
+@media (min-width: -100px) {
+.navbar-brand1{
+    visibility: visible;
+    width: 150px;
+    height: 60px;
+    margin-left: -70%;
+
+}
+.navbar-brand1 img{
+    display:auto;
+    width: 60%;
+    height: 300%;
+    margin-top: -43%;
+}
+
+    
+}
+
+@media (min-width: -400px) {
+.navbar-brand1{
+    visibility: visible;
+    width: 150px;
+    height: 60px;
+    margin-left: -70%;
+
+}
+.navbar-brand1 img{
+    display:auto;
+    width: 60%;
+    height: 300%;
+    margin-top: -43%;
+}
+
+    
+}
+
+@media (min-width: -400px) {
+.navbar-brand1{
+    margin-left: -60%;
+
+}
+.navbar-brand1 img{
+    margin-top: -43%;
+}
+
+    
+}
+
+
+.hero-section {
+    background: url(hero-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-section:before {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 1.5em;
+}
+
+.hero-section h2 {
+    font-size: 1.2em;
+}
+
+.header{
+    background-color:#1b3039;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 85px;
+    padding:5px 10%;
+}
+
+
+
+@font-face{
+        font-family: Cinzel;
+        src:url(font/Cinzel.ttf);
+        font-weight:bold;
+        font-style:bold;
+}
+
+@font-face{
+        font-family: Neuton;
+        src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+}
+
+h2{
+        font-family: Cinzel;
+        font-weight:;
+}
+
+
+p{
+        font-family: Neuton;
+        font-weight:;
+}
+
+body   {
+        
+       
+}
+
+footer .titulo{
+         font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+       
+}
+
+
+.color2 {
+        background: gray;
+        color: ;
+}
+
+
+.pie-pagina {
+    width:100%;
+    background-color:#0a141d;
+        
+}
+.adicional {
+    width:100%;
+    background-color:darkred;
+    }
+.bg-redark{
+    background-color: #161616;
+        align-items: center;
+        color: #fff;
+        padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17pz;
+    color: whitesmoke;
+    transition-duration: 0.3s;
+    opacity: .9;
+}
+p{
+    font-size: 17px;
+}
+a:hover{
+    color:white;
+    transition-duration: 0.3s;
+    opacity: 1.0;
+    
+}
+i{
+    font-size: 25 px ;
+}
+
+.galeria{
+    font-family: Neuton;
+        font-weight:bold;
+        font-style:bold;
+        border: none;
+}
+.galeria h1{
+    
+    font-weight: 300;
+}
+.contenedor-imagenes{
+    
+    width:100%;
+    
+}
+.contenedor-imagenes .imagen{
+   
+    position: relative;
+
+}
+.imagen img{
+    width:100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.781) ;
+    transition: .2s ease;
+    overflow: hidden;
+
+}
+.overlay h2{
+    color:#fff;
+    font-size: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+   
+}
+.imagen:hover .overlay{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.text1 h5{
+       font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+}
+.text-uppercase{
+       font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+        align-items: center;
+}
+.text5 p{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+        align-items: center;
+}
+.text5 .titular{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+        align-items: center;
+}
+.text5 .titular2{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+}
+.columna3 a{
+    font-size:25px;
+}
+.row1{
+    font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+}
+.columna3 .imgn{
+    max-width:20px;
+    height: 20px;
+}
+.bg-redark1{
+    background-color: #161616;
+    font-size: 100%;
+    color:#fff;
+}
+.columna5 img{
+    width:170px;
+}
+.imagen2{
+    background-color: red;
+}
