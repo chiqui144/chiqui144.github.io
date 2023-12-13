@@ -142,13 +142,21 @@ h1{
 
 @media (min-width: -400px) {
 .navbar-brand1{
-    margin-left: -60%;
+    margin-left: -50%;
 
 }
 .navbar-brand1 img{
-    margin-top: -43%;
+   margin-left: 2%;
 }
 
+@media (min-width: -700px) {
+.navbar-brand1{
+    margin-left: -57%;
+
+}
+.navbar-brand1 img{
+   margin-left: 5%;
+}
     
 }
 
@@ -386,7 +394,4 @@ i{
 }
 .columna5 img{
     width:170px;
-}
-.imagen2{
-    background-color: red;
 }
