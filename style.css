@@ -1,163 +1,25 @@
-/*
-    Author: @a_devs_life
-    Youtube: https://www.youtube.com/@a_devs_life
-    Instagram: https://www.instagram.com/a_devs_life/
-    Github: https://github.com/codeboysk/a-devs-life
-*/
-
 h1{
     font-size: 40px;
 }
-.navbar {
-    background-color: #EFEFEF;
-    height: 100px;
-    padding: 0.5rem;
-      transition: 0.9s ease;
-}
-.navbar:hover {
-    background-color:  #dddddd;
-    transition: 0.9s ease;
-    
-}
-.offcanvas-title{
-    font-family: Neuton;
-        src:url(font/Neuton-Light.ttf);
-        font-weight:bold;
-        font-style:bold;
+
 
 }
-
-.navbar-brand {
-    color: #000000;
-    font-size: 30px;
-
+.alert{
+    background: blue;
+    color: #fff;
+    border-radius:10px;
 }
 
-
-.navbar-toggler {
-    border: none;
-    font-size: 1.25rem;
-
-    
+header{
+    width: 100%;
+    height: 15%;
+    background: green;
+    background-size: cover;
 }
 
-.navbar-toggler:focus, .btn-close:focus {
-    box-shadow: none;
-    outline: none;
-    justify-content: space-between;
-}
-
-.nav-link {
-    color: #000000;
-    font-weight: 500;
-    position: relative;
-    justify-items: right;
-}
-
-.nav-link:hover, .nav-link.active {
-    color: #000;
-}
-
-@media (min-width: 1000px) {
-    .nav-link::before{
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0;
-        height: 2px;
-        background-color: #000000;
-        visibility: hidden;
-        transition: 0.3s ease-in-out;
-        
-    }
-    .logo {
-        width:100%;
-        height: 100px;
-        margin-left: -30%;
-
-    }
-    .navbar-brand{
-        width: 100%;
-    }
-    .navbar-brand1{
-    visibility: hidden;
-    width: 30%;
-    height: 60px;
-    margin: 2%;
-
-    }
-    .navbar-brand1 img{
-    visibility: hidden;
-    width: 30%;
-    height: 60px;
-    margin: 2%;
-
-    }
-
-    .nav-link:hover::before, .nav-link.active::before {
-        width: 100%;
-        visibility: visible;
-    }
-    
-}
-
-
-@media (min-width: -100px) {
-.navbar-brand1{
-    visibility: visible;
-    width: 150px;
-    height: 60px;
-    margin-left: -70%;
-
-}
-.navbar-brand1 img{
-    display:auto;
-    width: 60%;
-    height: 300%;
-    margin-top: -43%;
-}
-
-    
-}
-
-@media (min-width: -400px) {
-.navbar-brand1{
-    visibility: visible;
-    width: 150px;
-    height: 60px;
-    margin-left: -70%;
-
-}
-.navbar-brand1 img{
-    display:auto;
-    width: 60%;
-    height: 300%;
-    margin-top: -43%;
-}
-
-    
-}
-
-@media (min-width: -400px) {
-.navbar-brand1{
-    margin-left: -50%;
-
-}
-.navbar-brand1 img{
-   margin-left: 2%;
-}
-
-@media (min-width: -700px) {
-.navbar-brand1{
-    margin-left: -57%;
-
-}
-.navbar-brand1 img{
-   margin-left: 5%;
-}
-    
+.logo{
+    font-size: 35px;
+    padding: 10px;
 }
 
 
@@ -194,10 +56,10 @@ h1{
 .header{
     background-color:#1b3039;
     display:flex;
-    justify-content:space-between;
+  
     align-items:center;
     height: 85px;
-    padding:5px 10%;
+  
 }
 
 
@@ -256,6 +118,16 @@ footer .titulo{
     width:100%;
     background-color:darkred;
     }
+
+.footer1{
+    background: #000;
+    width:100%;
+    color:#fff;
+}
+.footer-fila1{
+    background: #0000;
+}
+
 .bg-redark{
     background-color: #161616;
         align-items: center;
@@ -307,6 +179,9 @@ i{
     width:100%;
     height: 100%;
 }
+
+
+
 .overlay{
     position: absolute;
     bottom: 0;
@@ -388,10 +263,155 @@ i{
     height: 20px;
 }
 .bg-redark1{
-    background-color: #161616;
+    background-color: #ECDBB2;
     font-size: 100%;
     color:#fff;
 }
 .columna5 img{
     width:170px;
+}
+
+.uno rect{
+    transition: 1.0s ease;
+    stroke:#8B0000;
+    stroke-width:10px;
+}
+
+.uno rect:hover{
+    stroke-width:35px;
+    stroke:#8B0000;
+    transition: 0.9s ease;
+}
+
+.dos rect{
+    transition: 1.0s ease;
+    stroke:#FFA500;
+    stroke-width:10px;
+}
+
+.dos rect:hover{
+    stroke-width:35px;
+    stroke:#FFA500;
+    transition: 0.9s ease;
+}
+.tres rect{
+    transition: 1.0s ease;
+    stroke:#ADFF2F;
+    stroke-width:10px;
+}
+.tres path{
+    transition: 1.0s ease;
+    stroke:#ADFF2F;
+    stroke-width:10px;
+}
+.tres rect:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+.tres path:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+.cuatro rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#20B2AA;
+}
+.cuatro rect:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+.TORNILLOSMAD circle{
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+.TORNILLOSMET1 circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#F4A460;
+}
+.TORNILLOSMET1 circle:hover{
+    stroke-width:35px;
+    stroke:#F4A460;
+    transition: 0.9s ease;
+}
+.TORNILLOSMET2 circle{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#B8860B;
+}
+.TORNILLOSMET2 circle:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+
+.fila1 div{
+    display:none;
+}
+.fila1 > .mapa{
+    display:block;
+}
+
+.footer1{
+        background: #000;
+
+    }
+
+footer{
+    background: #000;
+}
+
+.columna3 li{
+    padding: 10px;
+}
+
+.text5{
+    font-size: 50px;
+}
+--------------------------------------
+svg {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.state {
+  fill: #B7B7B7 !important;
+}
+
+.state:hover {
+  fill: #CC0033 !important;
+  cursor: pointer;
+}
+
+  path {
+    transition: fill .25s ease-in-out;
+  }
+
+.modal {
+  text-align: center;
+}
+
+.btn {
+  background-color: #CC0033;
+  color: white;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white !important;
+}
+
+.hq {
+  color: #CC0033;
 }
