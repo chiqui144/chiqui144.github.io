@@ -3,19 +3,213 @@ h1{
 }
 
 
-}
-.alert{
-    background: blue;
-    color: #fff;
-    border-radius:10px;
+body {
+    background: #EAEDED;
+    font-family: Arial, sans-serif;
 }
 
-header{
-    width: 100%;
-    height: 15%;
-    background: green;
-    background-size: cover;
+a {
+    text-decoration: none;
 }
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+main article {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    height: 1000px;
+}
+
+/* ------------------------- */
+/* Enlaces del NAV */
+/* ------------------------- */
+.menu {
+    background: #232F3E;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.menu .contenedor-botones-menu {
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+}
+
+.menu .contenedor-botones-menu button {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+}
+
+
+.menu .contenedor-botones-menu .btn-menu-cerrar.activo {
+    display: inline-block;
+}
+
+.menu .contenedor-enlaces-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .btn-departamentos {
+    color: #fff;
+    padding: 7px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    cursor: default;
+}
+
+
+
+
+
+.menu .btn-departamentos span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu .contenedor-enlaces-nav .enlaces a {
+    color: #ccc;
+    border: 1px solid transparent;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.menu .contenedor-enlaces-nav .enlaces a:hover {
+    border: 1px solid rgba(255,255,255,.4);
+}
+
+/* ------------------------- */
+/* GRID */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Categorias */
+/* ------------------------- */
+
+
+
+
+
+/* ------------------------- */
+/* Mediaqueies */
+/* ------------------------- */
+@media screen and (max-width: 1000px) {
+    .menu .contenedor-enlaces-nav {
+        padding: 0 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    
+
+    .menu .contenedor-botones-menu {
+        display: flex;
+    }
+
+    .menu .contenedor-enlaces-nav {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        left: 0;
+        background: #232F3F;
+        height: 100vh;
+        width: 80%;
+        z-index: 2000;
+        transition: .3s ease all;
+        transform: translate(-100%);
+    }
+
+    .menu .contenedor-enlaces-nav.activo {
+        transform: translate(0%);
+    }
+
+    .menu .btn-departamentos {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        
+    }
+
+    .menu .btn-departamentos i {
+        position: static;
+        margin-left: 20px;
+        transform: rotate(-90deg);
+
+    }
+
+    .menu .enlaces {
+        width: 100%;
+    }
+
+    .menu .enlaces a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo{
     font-size: 35px;
@@ -334,6 +528,16 @@ i{
     stroke:#20B2AA;
     transition: 0.9s ease;
 }
+.TORNILLOSMAD2 circle{
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD2 circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
 .TORNILLOSMET1 circle{
     transition: 1.0s ease;
     stroke-width:10px;
@@ -352,6 +556,49 @@ i{
 .TORNILLOSMET2 circle:hover{
     stroke-width:35px;
     stroke:#B8860B;
+    transition: 0.9s ease;
+}
+
+--------------------------------------------
+
+.CAJONES rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#B8860B;
+}
+.CAJONES rect:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+.PUERTAS-ARMARIO rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#F4A460;
+}
+.PUERTAS-ARMARIO rect:hover{
+    stroke-width:35px;
+    stroke:#F4A460;
+    transition: 0.9s ease;
+}
+.COLGADORES rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#ADFF2F;
+}
+.COLGADORES rect:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+.TACOS polygon{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#ADFF2F;
+}
+.TACOS polygon:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
     transition: 0.9s ease;
 }
 
