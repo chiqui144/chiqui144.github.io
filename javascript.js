@@ -168,7 +168,7 @@ $(document).ready(function(){
 <!--LEFT SECTION-->
 $(document).ready(function(){
     $("#PUERTA-CENTRAL1").click(function(){
-        $("#PUERTA-EXTREMO-IZQUIERDA-MODAL").modal();
+        $("#PUERTA-CENTRAL-MODAL").modal();
     });
 });
 <!--LEFT SECTION-->
@@ -185,20 +185,37 @@ $(document).ready(function(){
 });
 
 
+<!--Contenedor-->
 
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#LOCK").click(function(){
+        $("#CERRADURA1").modal();
+    });
+});
 
-
-
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#BOX").click(function(){
+        $("#CAJONES1").modal();
+    });
+});
 
 <!--Contenedor-->
 
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#SLIDER").click(function(){
+        $("#SLID").modal();
+    });
+});
 
-
-
-<!--MENU-->
-
-
-
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#MANIJA").click(function(){
+        $("#MANIJAMODAL").modal();
+    });
+});
 
 
 const btnDepartamentos = document.getElementById('btn-departamentos'),
@@ -245,41 +262,7 @@ document.querySelector('#btn-menu-barras').addEventListener('click', (e) => {
     }
 });
 
-// Click en boton de todos los departamentos (Para version movil).
-btnDepartamentos.addEventListener('click', (e) => {
-    e.preventDefault();
-    grid.classList.add('activo');
-    btnCerrarMenu.classList.add('activo');
-});
 
-// Boton de regresar en el menu de categorias
-document.querySelector('#grid .categorias .btn-regresar').addEventListener('click', (e) => {
-    e.preventDefault();
-    grid.classList.remove('activo');
-    btnCerrarMenu.classList.remove('activo');
-});
-
-document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
-    elemento.addEventListener('click', (e) => {
-        if(esDispositivoMovil()){
-            contenedorSubCategorias.classList.add('activo');
-            document.querySelectorAll('#menu .subcategoria').forEach((categoria) => {
-                categoria.classList.remove('activo');
-                if(categoria.dataset.categoria == e.target.dataset.categoria){
-                    categoria.classList.add('activo');
-                }
-            });
-        }
-    });
-});
-
-// Boton de regresar en el menu de categorias
-document.querySelectorAll('#grid .contenedor-subcategorias .btn-regresar').forEach((boton) => {
-    boton.addEventListener('click', (e) => {
-        e.preventDefault();
-        contenedorSubCategorias.classList.remove('activo');
-    });
-});
 
 btnCerrarMenu.addEventListener('click', (e)=> {
     e.preventDefault();

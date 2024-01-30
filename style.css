@@ -5,7 +5,7 @@ h1{
 
 body {
     background: #EAEDED;
-    font-family: Arial, sans-serif;
+    font-family: Neuton;
 }
 
 a {
@@ -85,11 +85,13 @@ main article {
     border: 1px solid transparent;
     padding: 7px;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 17px;
+    transition:0.4s;
 }
 
 .menu .contenedor-enlaces-nav .enlaces a:hover {
-    border: 1px solid rgba(255,255,255,.4);
+    color:white;
+    transition:0.9s;
 }
 
 /* ------------------------- */
@@ -560,30 +562,41 @@ i{
 }
 
 --------------------------------------------
-
-.CAJONES rect{
+.PUERTAS-ARMARIO{
     transition: 1.0s ease;
-     stroke-width:10px;
-    stroke:#B8860B;
+     stroke-width:13px;
+    stroke:#F9382C;
 }
-.CAJONES rect:hover{
+.PUERTAS-ARMARIO:hover{
     stroke-width:35px;
-    stroke:#B8860B;
+    stroke:#F9382C;
     transition: 0.9s ease;
 }
 .PUERTAS-ARMARIO rect{
     transition: 1.0s ease;
-     stroke-width:10px;
-    stroke:#F4A460;
+     stroke-width:13px;
+    stroke:#18FFDF;
 }
 .PUERTAS-ARMARIO rect:hover{
     stroke-width:35px;
-    stroke:#F4A460;
+    stroke:#18FFDF;
     transition: 0.9s ease;
+}
+.PUERTA-CENTRAL1 rect{
+     transition: 1.0s ease;
+     stroke-width:13px;
+    stroke:#FF14FF;
+
+}
+.PUERTA-CENTRAL1 rect:hover{
+       stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+
 }
 .COLGADORES rect{
     transition: 1.0s ease;
-     stroke-width:10px;
+     stroke-width:13px;
     stroke:#ADFF2F;
 }
 .COLGADORES rect:hover{
@@ -593,7 +606,7 @@ i{
 }
 .TACOS polygon{
     transition: 1.0s ease;
-     stroke-width:10px;
+     stroke-width:13px;
     stroke:#ADFF2F;
 }
 .TACOS polygon:hover{
@@ -661,4 +674,40 @@ svg {
 
 .hq {
   color: #CC0033;
+}
+
+.alerta1{
+    background:#8E8671;
+    padding: 12px;
+    border-radius: 10px;
+    color:#ffff;
+}
+.form-select{
+  width: 150px;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.LOCK circle{
+ transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#B8860B;
+}
+.LOCK circle:hover{
+stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+    
+}
+.BOX rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#B8860B;
+}
+.BOX rect:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
 }
