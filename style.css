@@ -661,6 +661,9 @@ svg {
 .modal {
   text-align: center;
 }
+.modal-content {
+  width: 100%;
+}
 
 .btn {
   background-color: #CC0033;
@@ -696,7 +699,7 @@ svg {
     stroke:#B8860B;
 }
 .LOCK circle:hover{
-stroke-width:35px;
+    stroke-width:35px;
     stroke:#B8860B;
     transition: 0.9s ease;
     
@@ -709,5 +712,25 @@ stroke-width:35px;
 .BOX rect:hover{
     stroke-width:35px;
     stroke:#B8860B;
+    transition: 0.9s ease;
+}
+.ESPALDAR rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#A9A715;
+}
+.ESPALDAR rect:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+.CIRCULO circle{
+    stroke-width:10px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+.CIRCULO circle:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
     transition: 0.9s ease;
 }

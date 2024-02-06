@@ -217,6 +217,57 @@ $(document).ready(function(){
     });
 });
 
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#MANIJA-CAJON").click(function(){
+        $("#MANIJA-CAJONMODAL").modal();
+    });
+});
+
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#TRIPLEX-IZQUIERDO").click(function(){
+        $("#TRIPLEX-IZQUIERDOMODAL").modal();
+    });
+});
+
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#TRIPLEX-CENTRAL").click(function(){
+        $("#TRIPLEX-CENTRALMODAL").modal();
+    });
+});
+
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#TRIPLEX-DERECHO").click(function(){
+        $("#TRIPLEX-IZQUIERDOMODAL").modal();
+    });
+});
+
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#CIRCULO1").click(function(){
+        $("#CIRCULO").modal();
+    });
+});
+
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#CIRCULO2").click(function(){
+        $("#CIRCULO").modal();
+    });
+});
+
+<!--LEFT SECTION-->
+$(document).ready(function(){
+    $("#CIRCULO3").click(function(){
+        $("#CIRCULO").modal();
+    });
+});
+
+
+
 
 const btnDepartamentos = document.getElementById('btn-departamentos'),
       btnCerrarMenu = document.getElementById('btn-menu-cerrar'),
