@@ -267,6 +267,66 @@ $(document).ready(function(){
 });
 
 
+/*
+
+<!--SELECTOR-->
+function listenToClicks(){
+    const buttons = document.querySelectorAll(".clickable-button");
+
+
+
+    buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        activateBoxes(button.id);
+    });
+   });
+}
+
+   function activateBoxes(buttonId){
+    const boxes = document.querySelectorAll(".box");
+
+    boxes.forEach((box) => {
+        if (box.classList.contains(buttonId)) {
+            box.dataset.active = true;
+        }else{
+            box.dataset.active = false;
+        }
+    });
+   }
+
+   listenToClicks();
+<!--SELECTOR-->
+
+ 
+*/
+
+<!--SELECTOR-->
+function listenToClicks(){
+    const botones = document.querySelectorAll(".clickable-g");
+
+
+
+    botones.forEach((g) => {
+    g.addEventListener("click", () => {
+        activateBoxes(g.id);
+    });
+   });
+}
+
+   function activateBoxes(gId){
+    const boxes = document.querySelectorAll(".box");
+
+    boxes.forEach((box) => {
+        if (box.classList.contains(gId)) {
+            box.dataset.active = true;
+        }else{
+            box.dataset.active = false;
+        }
+    });
+   }
+<!--SELECTOR-->
+
+ listenToClicks();
 
 
 const btnDepartamentos = document.getElementById('btn-departamentos'),

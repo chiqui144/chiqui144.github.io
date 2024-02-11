@@ -367,9 +367,7 @@ i{
     
 }
 .contenedor-imagenes .imagen{
-   
-    position: relative;
-
+   position: relative;
 }
 .imagen img{
     width:100%;
@@ -406,7 +404,643 @@ i{
     transition: 0.5s ease;
 }
 
-.text1 h5{
+
+
+/* SVG ESTRUCTURA*/
+/* DIVISIONES CENTRALES */
+.uno rect{
+    transition: 1.0s ease;
+    stroke:#FA3D3D;
+    cursor: pointer;
+    stroke-width:10px;
+}
+
+.uno rect:hover{
+    stroke-width:35px;
+    stroke:#FA3D3D;
+    transition: 0.9s ease;
+}
+/* DIVISIONES CENTRALES */
+
+/* DIVISIONES CENTRALES */
+.dos rect{
+    transition: 1.0s ease;
+    stroke:#EFD813;
+    cursor: pointer;
+    stroke-width:10px;
+}
+
+.dos rect:hover{
+    stroke-width:35px;
+    stroke:#EFD813;
+    transition: 0.9s ease;
+}
+/* DIVISIONES CENTRALES */
+
+/* COLGAROPA */
+.tres rect{
+    transition: 1.0s ease;
+    stroke:#105FE2;
+    cursor: pointer;
+    fill: #105FE2 !important;
+    stroke-width:10px;
+}
+.tres rect:hover{
+    stroke-width:35px;
+    stroke:#105FE2;
+    transition: 0.9s ease;
+}
+.tres path{
+    transition: 1.0s ease;
+    stroke:#105FE2;
+    cursor: pointer;
+    fill: #105FE2 !important;
+    stroke-width:10px;
+}
+.tres path:hover{
+    stroke-width:35px;
+    stroke:#105FE2;
+    transition: 0.9s ease;
+}
+/* COLGAROPA */
+
+/* DIVISIONES */
+.cuatro rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#20B2AA;
+}
+.cuatro rect:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* DIVISIONES */
+
+/* DIVISION CENTRAL INFERIOR */
+.cuatro .CENTRAL-INFERIOR{
+    stroke-width:10px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+.cuatro .CENTRAL-INFERIOR:hover{
+    stroke-width:35px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+/* DIVISION CENTRAL INFERIOR */
+
+/* TORNILLO MADERA ESQUINEROS */
+.TORNILLOSMAD circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* TORNILLO MADERA ESQUINEROS */
+
+/* TORNILLO MADERA EXTERNO INTERIOR */
+.TORNILLOSMAD2 circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD2 circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* TORNILLO MADERA EXTERNO INTERIOR */
+
+/* TORNILLO COLGAROPA */
+.TORNILLOSMET1 circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#F4A460;
+}
+.TORNILLOSMET1 circle:hover{
+    stroke-width:35px;
+    stroke:#F4A460;
+    transition: 0.9s ease;
+}
+/* TORNILLO COLGAROPA */
+
+/* TORNILLO SOPORTES ANGULOS */
+.TORNILLOSMET2 circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+     stroke-width:10px;
+    stroke:#B8860B;
+}
+.TORNILLOSMET2 circle:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+/* TORNILLO SOPORTES ANGULOS */
+/* SVG ESTRUCTURA */
+
+
+
+/* PROGRAMACION PARA SELECTOR PRIMERO */
+
+/* PRIMER SELECTOR */
+.UNO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FA3D3D;
+}
+.UNO1:hover{
+    stroke-width:35px;
+    stroke:#FA3D3D;
+    transition: 0.9s ease;
+}
+
+.DOS1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#EFD813;
+}
+.DOS1:hover{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#EFD813;
+}
+
+---------------------------------------
+
+/*ESTRUCTURA DE SELECTOR
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap:20px;
+    margin: 80px;
+    
+
+    button {
+    padding:30px;
+    font-size: 24px;
+    }
+}
+
+.selectable-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+
+    .box{
+        background-color: gray;
+        padding: 20px;
+    }
+
+    .box[data-active="true"] {
+        background-color:#FA3D3D;
+    }
+
+}
+ESTRUCTURA DE SELECTOR*/
+
+--------------------------------------------
+
+/*ESTRUCTURA DE SELECTOR*/
+
+.buttons {
+    
+    g {
+
+    }
+}
+
+.selectable-elements {
+
+
+
+    .box{
+        
+    }
+
+    .box[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FA3D3D;
+          transition: 0.9s ease;
+     }
+
+
+}
+/*ESTRUCTURA DE SELECTOR*/
+
+
+
+
+
+
+
+-------------------------------------
+
+
+.DOS1:hover{
+    stroke-width:35px;
+    stroke:#EFD813;
+    transition: 0.9s ease;
+}
+
+/* TERCERO SELECTOR */
+.TRES1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#105FE2;
+}
+
+.TRES1:hover{
+    stroke-width:35px;
+    stroke:#105FE2;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#20B2AA;
+}
+.CUATRO1:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+
+/* QUINTO SELECTOR */
+.CINCO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#6AF23E;
+}
+.CINCO1:hover{
+    stroke-width:35px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.SEIS1:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR PRIMERO */
+
+
+
+/* SVG FRONTAL */
+/* PUERTAS ARMARIO FRONTAL EXTREMO INTERNA/EXTERNA */
+.PUERTAS-ARMARIO{
+    transition: 1.0s ease;
+    stroke-width:13px;
+    stroke:#F9382C;
+    cursor: pointer;
+}
+.PUERTAS-ARMARIO:hover{
+    stroke-width:35px;
+    stroke:#F9382C;
+    transition: 0.9s ease;
+}
+.PUERTAS-ARMARIO rect{
+    transition: 1.0s ease;
+     stroke-width:13px;
+    stroke:#18FFDF;
+    cursor: pointer;
+}
+.PUERTAS-ARMARIO rect:hover{
+    stroke-width:35px;
+    stroke:#18FFDF;
+    transition: 0.9s ease;
+}
+/* PUERTAS ARMARIO FRONTAL EXTREMO INTERNA/EXTERNA */
+
+/* PUERTAS ARMARIO FRONTAL CENTRAL */
+.PUERTA-CENTRAL1 rect{
+     transition: 1.0s ease;
+     cursor: pointer;
+     stroke-width:13px;
+     stroke:#FF14FF;
+
+}
+.PUERTA-CENTRAL1 rect:hover{
+    stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+
+}
+/* PUERTAS ARMARIO FRONTAL CENTRAL */
+
+/* MANIJAS */
+.COLGADORES rect{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:13px;
+    stroke:#ADFF2F;
+}
+.COLGADORES rect:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+/* MANIJAS */
+
+/* TACOS - SOPORTE PISO */
+.TACOS polygon{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:13px;
+    stroke:#ADFF2F;
+}
+.TACOS polygon:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+/* TACOS - SOPORTE PISO */
+
+/* INFORMACION CERRADURA */
+.LOCK circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#B8860B;
+}
+.LOCK circle:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+    
+}
+/* INFORMACION CERRADURA */
+
+/* INFORMACION CAJON */
+.BOX rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+     ursor: pointer;
+     stroke:#B8860B;
+}
+.BOX rect:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+/* INFORMACION CAJON */
+/* SVG FRONTAL */
+
+
+/* PROGRAMACION PARA SELECTOR SEGUNDO */
+
+/* PRIMER SELECTOR */
+.UNO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#A9A715;
+}
+.UNO2:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.DOS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.DOS2:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.TRES2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#A9A715;
+}
+
+.TRES2:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.CUATRO2:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+/* QUINTO SELECTOR */
+.CINCO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#A9A715;
+}
+.CINCO2:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.SEIS2:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR SEGUNDO */
+
+
+
+
+/* SVG ESPALDAR */
+/* INFORMACION TRIPLEX ESPALDAR */
+.ESPALDAR rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#A9A715;
+}
+.ESPALDAR rect:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+/* INFORMACION TRIPLEX ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+.CIRCULO circle{
+    stroke-width:10px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+.CIRCULO circle:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+
+
+
+/* PROGRAMACION PARA SELECTOR TERCERO */
+
+/* PRIMER SELECTOR */
+.UNO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#A9A715;
+}
+.UNO3:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.DOS3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.DOS3:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.TRES3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#A9A715;
+}
+
+.TRES3:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.CUATRO3:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+/* QUINTO SELECTOR */
+.CINCO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#A9A715;
+}
+.CINCO3:hover{
+    stroke-width:35px;
+    stroke:#A9A715;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.SEIS3:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR TERCERO */
+
+
+
+/* SECCION FOOTER */
+text1 h5{
        font-family: Neuton;
        src:url(font/Neuton-Light.ttf);
         font-weight:bold;
@@ -466,155 +1100,6 @@ i{
 .columna5 img{
     width:170px;
 }
-
-.uno rect{
-    transition: 1.0s ease;
-    stroke:#8B0000;
-    stroke-width:10px;
-}
-
-.uno rect:hover{
-    stroke-width:35px;
-    stroke:#8B0000;
-    transition: 0.9s ease;
-}
-
-.dos rect{
-    transition: 1.0s ease;
-    stroke:#FFA500;
-    stroke-width:10px;
-}
-
-.dos rect:hover{
-    stroke-width:35px;
-    stroke:#FFA500;
-    transition: 0.9s ease;
-}
-.tres rect{
-    transition: 1.0s ease;
-    stroke:#ADFF2F;
-    stroke-width:10px;
-}
-.tres path{
-    transition: 1.0s ease;
-    stroke:#ADFF2F;
-    stroke-width:10px;
-}
-.tres rect:hover{
-    stroke-width:35px;
-    stroke:#ADFF2F;
-    transition: 0.9s ease;
-}
-.tres path:hover{
-    stroke-width:35px;
-    stroke:#ADFF2F;
-    transition: 0.9s ease;
-}
-.cuatro rect{
-    transition: 1.0s ease;
-    stroke-width:10px;
-    stroke:#20B2AA;
-}
-.cuatro rect:hover{
-    stroke-width:35px;
-    stroke:#20B2AA;
-    transition: 0.9s ease;
-}
-.TORNILLOSMAD circle{
-    transition: 1.0s ease;
-    stroke-width:15px;
-    stroke:#20B2AA;
-}
-.TORNILLOSMAD circle:hover{
-    stroke-width:35px;
-    stroke:#20B2AA;
-    transition: 0.9s ease;
-}
-.TORNILLOSMAD2 circle{
-    transition: 1.0s ease;
-    stroke-width:15px;
-    stroke:#20B2AA;
-}
-.TORNILLOSMAD2 circle:hover{
-    stroke-width:35px;
-    stroke:#20B2AA;
-    transition: 0.9s ease;
-}
-.TORNILLOSMET1 circle{
-    transition: 1.0s ease;
-    stroke-width:10px;
-    stroke:#F4A460;
-}
-.TORNILLOSMET1 circle:hover{
-    stroke-width:35px;
-    stroke:#F4A460;
-    transition: 0.9s ease;
-}
-.TORNILLOSMET2 circle{
-    transition: 1.0s ease;
-     stroke-width:10px;
-    stroke:#B8860B;
-}
-.TORNILLOSMET2 circle:hover{
-    stroke-width:35px;
-    stroke:#B8860B;
-    transition: 0.9s ease;
-}
-
---------------------------------------------
-.PUERTAS-ARMARIO{
-    transition: 1.0s ease;
-     stroke-width:13px;
-    stroke:#F9382C;
-}
-.PUERTAS-ARMARIO:hover{
-    stroke-width:35px;
-    stroke:#F9382C;
-    transition: 0.9s ease;
-}
-.PUERTAS-ARMARIO rect{
-    transition: 1.0s ease;
-     stroke-width:13px;
-    stroke:#18FFDF;
-}
-.PUERTAS-ARMARIO rect:hover{
-    stroke-width:35px;
-    stroke:#18FFDF;
-    transition: 0.9s ease;
-}
-.PUERTA-CENTRAL1 rect{
-     transition: 1.0s ease;
-     stroke-width:13px;
-    stroke:#FF14FF;
-
-}
-.PUERTA-CENTRAL1 rect:hover{
-       stroke-width:35px;
-    stroke:#FF14FF;
-    transition: 0.9s ease;
-
-}
-.COLGADORES rect{
-    transition: 1.0s ease;
-     stroke-width:13px;
-    stroke:#ADFF2F;
-}
-.COLGADORES rect:hover{
-    stroke-width:35px;
-    stroke:#ADFF2F;
-    transition: 0.9s ease;
-}
-.TACOS polygon{
-    transition: 1.0s ease;
-     stroke-width:13px;
-    stroke:#ADFF2F;
-}
-.TACOS polygon:hover{
-    stroke-width:35px;
-    stroke:#ADFF2F;
-    transition: 0.9s ease;
-}
-
 .fila1 div{
     display:none;
 }
@@ -624,13 +1109,17 @@ i{
 
 .footer1{
         background: #000;
-
     }
 
 footer{
     background: #000;
 }
+/* SECCION FOOTER */
 
+
+
+
+/* INFORMACION MODAL */
 .columna3 li{
     padding: 10px;
 }
@@ -638,43 +1127,23 @@ footer{
 .text5{
     font-size: 50px;
 }
---------------------------------------
 svg {
   max-width: 70%;
   display: block;
   margin: 0 auto;
 }
-
 .state {
-  fill: #B7B7B7 !important;
 }
 
 .state:hover {
-  fill: #CC0033 !important;
   cursor: pointer;
 }
-
-  path {
-    transition: fill .25s ease-in-out;
-  }
-
 .modal {
   text-align: center;
 }
 .modal-content {
   width: 100%;
 }
-
-.btn {
-  background-color: #CC0033;
-  color: white;
-}
-
-.btn:hover {
-  background-color: black;
-  color: white !important;
-}
-
 .hq {
   color: #CC0033;
 }
@@ -691,46 +1160,6 @@ svg {
   margin: 0;
   box-sizing: border-box;
   border-radius: 10px;
+}
+/* INFORMACION MODAL */
 
-}
-.LOCK circle{
- transition: 1.0s ease;
-     stroke-width:10px;
-    stroke:#B8860B;
-}
-.LOCK circle:hover{
-    stroke-width:35px;
-    stroke:#B8860B;
-    transition: 0.9s ease;
-    
-}
-.BOX rect{
-    transition: 1.0s ease;
-     stroke-width:10px;
-    stroke:#B8860B;
-}
-.BOX rect:hover{
-    stroke-width:35px;
-    stroke:#B8860B;
-    transition: 0.9s ease;
-}
-.ESPALDAR rect{
-    transition: 1.0s ease;
-     stroke-width:10px;
-    stroke:#A9A715;
-}
-.ESPALDAR rect:hover{
-    stroke-width:35px;
-    stroke:#A9A715;
-    transition: 0.9s ease;
-}
-.CIRCULO circle{
-    stroke-width:10px;
-    stroke:#FF5733;
-    transition: 0.9s ease;
-}
-.CIRCULO circle:hover{
-    stroke-width:35px;
-    stroke:#FF5733;
-    transition: 0.9s ease;
-}
