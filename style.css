@@ -643,6 +643,29 @@ ESTRUCTURA DE SELECTOR*/
           transition: 0.9s ease;
      }
 
+     .caja[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ffff;
+          transition: 0.9s ease;
+     }
+
+}
+
+.selectable-elements2 {
+
+
+
+    .caja{
+        
+    }
+
+
+
+     .caja[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ffff;
+          transition: 0.9s ease;
+     }
 
 }
 /*ESTRUCTURA DE SELECTOR*/

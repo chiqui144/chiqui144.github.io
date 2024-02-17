@@ -300,7 +300,7 @@ function listenToClicks(){
  
 */
 
-<!--SELECTOR-->
+/*<!--SELECTOR1-->*/
 function listenToClicks(){
     const botones = document.querySelectorAll(".clickable-g");
 
@@ -324,9 +324,37 @@ function listenToClicks(){
         }
     });
    }
-<!--SELECTOR-->
 
  listenToClicks();
+ /*<!--SELECTOR1-->*/
+
+ /*<!--SELECTOR2-->
+function listenToClicks(){
+    const botones2 = document.querySelectorAll(".clickable-g2");
+
+
+
+    botones2.forEach((g) => {
+    g.addEventListener("click", () => {
+        activateCajas(g.id);
+    });
+   });
+}
+
+   function activateCajas(gId){
+    const cajas = document.querySelectorAll(".caja");
+
+    cajas.forEach((caja) => {
+        if (caja.classList.contains(gId)) {
+            caja.dataset.active = true;
+        }else{
+            caja.dataset.active = false;
+        }
+    });
+   }
+
+ listenToClicks();
+ /*<!--SELECTOR2-->*/
 
 
 const btnDepartamentos = document.getElementById('btn-departamentos'),
