@@ -440,26 +440,25 @@ i{
 /* COLGAROPA */
 .tres rect{
     transition: 1.0s ease;
-    stroke:#105FE2;
+    stroke:#FF5733;
     cursor: pointer;
-    fill: #105FE2 !important;
+    fill: #C8CD80 !important;
     stroke-width:10px;
 }
 .tres rect:hover{
     stroke-width:35px;
-    stroke:#105FE2;
+    stroke:#FF5733;
     transition: 0.9s ease;
 }
 .tres path{
     transition: 1.0s ease;
-    stroke:#105FE2;
+    stroke:#FF5733;
     cursor: pointer;
-    fill: #105FE2 !important;
     stroke-width:10px;
 }
 .tres path:hover{
     stroke-width:35px;
-    stroke:#105FE2;
+    stroke:#FF5733;
     transition: 0.9s ease;
 }
 /* COLGAROPA */
@@ -576,96 +575,112 @@ i{
     transition: 1.0s ease;
     stroke-width:35px;
     stroke:#EFD813;
-}
-
----------------------------------------
-
-/*ESTRUCTURA DE SELECTOR
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.buttons {
-    display: flex;
-    gap:20px;
-    margin: 80px;
-    
-
-    button {
-    padding:30px;
-    font-size: 24px;
-    }
+    stroke-width:35px;
 }
 
 .selectable-elements {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-
-
-    .box{
-        background-color: gray;
-        padding: 20px;
-    }
-
-    .box[data-active="true"] {
-        background-color:#FA3D3D;
-    }
-
-}
-ESTRUCTURA DE SELECTOR*/
-
---------------------------------------------
-
-/*ESTRUCTURA DE SELECTOR*/
-
-.buttons {
-    
-    g {
-
-    }
-}
-
-.selectable-elements {
-
-
-
-    .box{
-        
-    }
-
     .box[data-active="true"]{
           stroke-width:35px;
           stroke:#FA3D3D;
-          transition: 0.9s ease;
-     }
-
-     .caja[data-active="true"]{
+          transition: 0.9s ease;      
+          }
+          .UNO1[data-active="true"]{
           stroke-width:35px;
-          stroke:#ffff;
+          stroke:#FA3D3D;
           transition: 0.9s ease;
-     }
-
-}
-
-.selectable-elements2 {
-
-
-
-    .caja{
-        
-    }
-
-
-
-     .caja[data-active="true"]{
+          }
+          .DOS1[data-active="true"]{
           stroke-width:35px;
-          stroke:#ffff;
+          stroke:#EFD813;
           transition: 0.9s ease;
+          }      
+          .TRES1[data-active="true"]{
+          stroke-width:45px;
+          stroke:#105FE2;
+          transition: 0.9s ease;
+          }
+           .CUATRO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#20B2AA;
+          transition: 0.9s ease;
+          }
+           .CINCO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#6AF23E;
+          transition: 0.9s ease;
+          }
+           .SEIS1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FF5733;
+          transition: 0.9s ease;
+          }
+
+
+          .UNO2[data-active="true"]{
+          stroke-width:40px;
+          stroke:#18FFDF;
+          transition: 0.9s ease;
+          }
+          .DOS2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FF14FF;
+          transition: 0.9s ease;
+          }      
+          .TRES2[data-active="true"]{
+          stroke-width:45px;
+          stroke:#B8860B;
+          transition: 0.9s ease;
+          }
+           .CUATRO2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FDB313;
+          transition: 0.9s ease;
+          }
+           .CINCO2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ADFF2F;
+          transition: 0.9s ease;
+          }
+        .SEIS2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#309C02;
+          transition: 0.9s ease;
+          }
+
+          .UNO3[data-active="true"]{
+          stroke-width:40px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+          .DOS3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }      
+          .TRES3[data-active="true"]{
+          stroke-width:45px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+           .CUATRO3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }
+          .CINCO3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+          .SEIS3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }
+
      }
+
+
 
 }
 /*ESTRUCTURA DE SELECTOR*/
@@ -679,9 +694,10 @@ ESTRUCTURA DE SELECTOR*/
 -------------------------------------
 
 
+
 .DOS1:hover{
     stroke-width:35px;
-    stroke:#EFD813;
+    stroke:#FF14FF;
     transition: 0.9s ease;
 }
 
@@ -808,11 +824,11 @@ ESTRUCTURA DE SELECTOR*/
     transition: 1.0s ease;
     cursor: pointer;
     stroke-width:13px;
-    stroke:#ADFF2F;
+    stroke:#309C02;
 }
 .TACOS polygon:hover{
     stroke-width:35px;
-    stroke:#ADFF2F;
+    stroke:#309C02;
     transition: 0.9s ease;
 }
 /* TACOS - SOPORTE PISO */
@@ -837,11 +853,11 @@ ESTRUCTURA DE SELECTOR*/
     transition: 1.0s ease;
     stroke-width:10px;
      ursor: pointer;
-     stroke:#B8860B;
+     stroke:#FDB313;
 }
 .BOX rect:hover{
     stroke-width:35px;
-    stroke:#B8860B;
+    stroke:#FDB313;
     transition: 0.9s ease;
 }
 /* INFORMACION CAJON */
@@ -855,11 +871,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#A9A715;
+    stroke:#18FFDF;
 }
 .UNO2:hover{
     stroke-width:35px;
-    stroke:#A9A715;
+    stroke:#18FFDF;
     transition: 0.9s ease;
 }
 /* PRIMER SELECTOR */
@@ -869,11 +885,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#FF5733;
+    stroke:#FF14FF;
 }
 .DOS2:hover{
     stroke-width:35px;
-    stroke:#FF5733;
+    stroke:#FF14FF;
     transition: 0.9s ease;
 }
 /* SEGUNDO SELECTOR */
@@ -883,12 +899,12 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#A9A715;
+    stroke:#B8860B;
 }
 
 .TRES2:hover{
     stroke-width:35px;
-    stroke:#A9A715;
+    stroke:#B8860B;
     transition: 0.9s ease;
 }
 /* TERCERO SELECTOR */
@@ -898,11 +914,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#FF5733;
+    stroke:#FDB313;
 }
 .CUATRO2:hover{
     stroke-width:35px;
-    stroke:#FF5733;
+    stroke:#FDB313;
     transition: 0.9s ease;
 }
 /* CUARTO SELECTOR */
@@ -912,11 +928,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#A9A715;
+    stroke:#ADFF2F;
 }
 .CINCO2:hover{
     stroke-width:35px;
-    stroke:#A9A715;
+    stroke:#ADFF2F;
     transition: 0.9s ease;
 }
 /* QUINTO SELECTOR */
@@ -926,11 +942,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#FF5733;
+    stroke:#309C02;
 }
 .SEIS2:hover{
     stroke-width:35px;
-    stroke:#FF5733;
+    stroke:#309C02;
     transition: 0.9s ease;
 }
 /* SEXTO SELECTOR */
@@ -945,11 +961,11 @@ ESTRUCTURA DE SELECTOR*/
 .ESPALDAR rect{
     transition: 1.0s ease;
      stroke-width:10px;
-    stroke:#A9A715;
+    stroke:#0034FF;
 }
 .ESPALDAR rect:hover{
     stroke-width:35px;
-    stroke:#A9A715;
+    stroke:#0034FF;
     transition: 0.9s ease;
 }
 /* INFORMACION TRIPLEX ESPALDAR */
@@ -957,12 +973,12 @@ ESTRUCTURA DE SELECTOR*/
 /* INFORMACION PUNTILLA ESPALDAR */
 .CIRCULO circle{
     stroke-width:10px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
     transition: 0.9s ease;
 }
 .CIRCULO circle:hover{
     stroke-width:35px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
     transition: 0.9s ease;
 }
 /* INFORMACION PUNTILLA ESPALDAR */
@@ -978,11 +994,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#A9A715;
+    stroke:#0034FF;
 }
 .UNO3:hover{
     stroke-width:35px;
-    stroke:#A9A715;
+    stroke:#0034FF;
     transition: 0.9s ease;
 }
 /* PRIMER SELECTOR */
@@ -992,11 +1008,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
 }
 .DOS3:hover{
     stroke-width:35px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
     transition: 0.9s ease;
 }
 /* SEGUNDO SELECTOR */
@@ -1006,12 +1022,12 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#A9A715;
+    stroke:#0034FF;
 }
 
 .TRES3:hover{
     stroke-width:35px;
-    stroke:#A9A715;
+    stroke:#0034FF;
     transition: 0.9s ease;
 }
 /* TERCERO SELECTOR */
@@ -1021,11 +1037,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
 }
 .CUATRO3:hover{
     stroke-width:35px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
     transition: 0.9s ease;
 }
 /* CUARTO SELECTOR */
@@ -1035,11 +1051,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#A9A715;
+    stroke:#0034FF;
 }
 .CINCO3:hover{
     stroke-width:35px;
-    stroke:#A9A715;
+    stroke:#0034FF;
     transition: 0.9s ease;
 }
 /* QUINTO SELECTOR */
@@ -1049,11 +1065,11 @@ ESTRUCTURA DE SELECTOR*/
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
 }
 .SEIS3:hover{
     stroke-width:35px;
-    stroke:#FF5733;
+    stroke:#ECFF00;
     transition: 0.9s ease;
 }
 /* SEXTO SELECTOR */

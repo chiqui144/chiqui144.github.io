@@ -410,3 +410,80 @@ btnCerrarMenu.addEventListener('click', (e)=> {
     });
     document.querySelector('body').style.overflow = 'visible';
 });
+
+
+
+/* INCLUSION DE SONIDO*/
+
+/* SELECTOR*/
+
+var p1 = new Audio();
+p1.src = "SOUND/SELECTOR/1.mp3";
+
+var p2 = new Audio();
+p2.src = "SOUND/SELECTOR/2.mp3";
+
+var p3 = new Audio();
+p3.src = "SOUND/SELECTOR/3.mp3";
+
+var p4 = new Audio();
+p4.src = "SOUND/SELECTOR/4.mp3";
+
+var p5 = new Audio();
+p5.src = "SOUND/SELECTOR/5.mp3";
+
+var p6 = new Audio();
+p6.src = "SOUND/SELECTOR/6.mp3";
+
+/* SELECTOR*/
+
+/* PIEZAS*/
+
+var m1 = new Audio();
+m1.src = "SOUND/PIEZAS/left.mp3";
+
+var m2 = new Audio();
+m2.src = "SOUND/PIEZAS/right.mp3";
+
+var m3 = new Audio();
+m3.src = "SOUND/PIEZAS/top.mp3";
+
+var m4 = new Audio();
+m4.src = "SOUND/PIEZAS/low.mp3";
+
+/* INTERNAL*/
+
+var m5 = new Audio();
+m5.src = "SOUND/PIEZAS/internal-left.mp3";
+
+var m6 = new Audio();
+m6.src = "SOUND/PIEZAS/internal-right.mp3";
+
+/* INTERNAL*/
+
+/* INTERNAL*/
+
+var m7 = new Audio();
+m7.src = "SOUND/PIEZAS/support.mp3";
+
+var m8 = new Audio();
+m8.src = "SOUND/PIEZAS/hanger.mp3";
+
+var m9 = new Audio();
+m9.src = "SOUND/PIEZAS/division1.mp3";
+
+var m10 = new Audio();
+m10.src = "SOUND/PIEZAS/division2.mp3";
+
+var m11 = new Audio();
+m11.src = "SOUND/PIEZAS/tornillos.mp3";
+
+
+/* INTERNAL*/
+
+/* PIEZAS*/
+
+
+
+/* INCLUSION DE SONIDO*/
+
