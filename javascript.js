@@ -415,7 +415,7 @@ btnCerrarMenu.addEventListener('click', (e)=> {
 
 /* INCLUSION DE SONIDO*/
 
-/* SELECTOR*/
+/* SELECTOR1*/
 
 var p1 = new Audio();
 p1.src = "SOUND/SELECTOR/1.mp3";
@@ -435,7 +435,7 @@ p5.src = "SOUND/SELECTOR/5.mp3";
 var p6 = new Audio();
 p6.src = "SOUND/SELECTOR/6.mp3";
 
-/* SELECTOR*/
+/* SELECTOR1*/
 
 /* PIEZAS*/
 
@@ -482,6 +482,41 @@ m11.src = "SOUND/PIEZAS/tornillos.mp3";
 /* INTERNAL*/
 
 /* PIEZAS*/
+
+/* SELECTOR2*/
+
+var p7 = new Audio();
+p7.src = "SOUND/SELECTOR/S1.mp3";
+
+var p8 = new Audio();
+p8.src = "SOUND/SELECTOR/S2.mp3";
+
+var p9 = new Audio();
+p9.src = "SOUND/SELECTOR/S3.mp3";
+
+var p10= new Audio();
+p10.src = "SOUND/SELECTOR/S4.mp3";
+
+var p11 = new Audio();
+p11.src = "SOUND/SELECTOR/S5.mp3";
+
+var p12 = new Audio();
+p12.src = "SOUND/SELECTOR/S6.mp3";
+
+/* SELECTOR2*/
+
+/* PIEZAS*/
+
+var m12 = new Audio();
+m12.src = "SOUND/PIEZAS/extreme-door.mp3";
+
+var m13 = new Audio();
+m13.src = "SOUND/PIEZAS/center-door.mp3";
+
+/* PIEZAS*/
+
+
+
 
 
 
